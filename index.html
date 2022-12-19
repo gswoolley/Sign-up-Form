@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign-Up-Form</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="left-container">
+        <div id="logo">
+          <img src="BYULogo.png" alt="Italian Trulli" id="cosmo" />
+        </div>
+      </div>
+      <div id="right-container">
+        <div id="top-right">
+          <h2>
+            This is not a real online service! Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Necessitatibus, commodi! Sign up now
+            to get started.
+          </h2>
+          <h2>You<em> know </em>you want to</h2>
+        </div>
+        <div id="middle-right">
+          <h2>Let's do this</h2>
+          <section>
+            <p>
+              <label for="firstname">
+                <span>First Name: </span>
+              </label>
+              <input type="text" id="firstname" name="userfirstname" required />
+            </p>
+            <p>
+              <label for="lastname">
+                <span>Last Name: </span>
+                <strong><span aria-label="required"></span></strong>
+              </label>
+              <input type="text" id="lastname" name="userlastname" />
+            </p>
+            <p>
+              <label for="mail">
+                <span>E-mail: </span>
+                <strong><span aria-label="required"></span></strong>
+              </label>
+              <input type="email" id="mail" name="usermail" />
+            </p>
+            <p>
+              <label for="number">
+                <span>Phone Number: </span>
+                <strong><span aria-label="required"></span></strong>
+              </label>
+              <input type="number" id="number" name="userphonenumber" />
+            </p>
+            <p>
+              <label for="pwd">
+                <span>Password: </span>
+                <strong><span aria-label="required"></span></strong>
+              </label>
+              <input type="password" id="pwd" name="password" />
+            </p>
+            <p>
+              <label for="confirm-pwd">
+                <span>Confirm Password: </span>
+                <strong><span aria-label="required"></span></strong>
+              </label>
+              <input type="password" id="confirm-pwd" name="confirm-password" />
+            </p>
+          </section>
+        </div>
+        <div id="bottom-right">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

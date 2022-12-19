@@ -1,0 +1,72 @@
+* {
+  font-family: "HCo Ringside Narrow SSm", "Open Sans", Helvetica, Arial,
+    sans-serif;
+  color: rgb(10, 10, 56);
+  letter-spacing: 1px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+input,
+label {
+  display: block;
+}
+
+#main {
+  display: flex;
+  height: 100%;
+}
+
+#logo {
+  background-color: rgba(255, 255, 255, 0.384);
+  height: 150px;
+  margin-top: 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#top-right {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  background-color: rgb(249 249 248);
+}
+
+#middle-right {
+  padding: 10px 200px 30px 50px;
+  box-shadow: 10px 5px 5px rgba(168, 162, 162, 0.295);
+}
+
+#bottom-right {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+#left-container {
+  width: 1000px;
+  height: 100%;
+  background-image: url("https://physics.byu.edu/graduate/images/timp.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+input {
+  width: 300px;
+}
+
+#cosmo {
+  width: 255px;
+}
